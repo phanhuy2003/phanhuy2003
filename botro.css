@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    padding: 10px;
+    background: #d8e4f4;
+    width: 100%;
+  }
+  
+  
+  .header {
+    padding: 10px;
+    text-align: center;
+    background: white;
+    color: #25287b;
+  }
+  
+  .header h1 {
+    font-size: 40px;
+  }
+  
+  .header p {
+    font-size: 20px;
+  }
+  
+ 
+  .topnav {
+    overflow: hidden;
+    background-color: aquamarine;
+    width: 100%;
+  }
+  
+ 
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+  .topnav a:hover {
+    background-color: pink;
+    color: white;
+  }
+  
+ 
+  .leftcolumn {
+    float: left;
+    width: 70%;
+    
+  }
+ 
+  .rightcolumn {
+    float: right;
+    width: 25%;
+    height: 150%;
+    background-color: wheat;
+    padding-left: 20px;
+    margin-top: 20px;
+  }
+  
+
+  .images {
+    width: 100%;
+    height: 200px;
+  }
+  
+
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  
+ 
+  .card-news {
+      width: 50%;
+      height: 200%;
+      background-color:#d8e4f4;
+      padding: 20px;
+      margin: 20px;
+      float: left;
+      width: 1000px;
+    }
+    .tuong{
+        float: left;
+        margin-right: 120px;
+        margin-bottom: 10px;
+        margin-top: 100px;
+    }
+    .tuong img{
+        width: 150px;
+    }
+ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  .footer {
+    padding: 10px;
+    text-align: center;
+    background: black;
+    margin-top: 10px;
+    color: white;
+  }
+  
+  
+  @media screen and (max-width: 700px) {
+    .leftcolumn,
+    .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+
+  @media screen and (max-width: 300px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+ 
+  .tuong{
+    border: 3px solid orangered;
+    background-color: aliceblue;
+    padding: 35px;
+    margin: 25px;
+    height: 350px;
+    width: 270px;
+  }
+  #slide{
+    height: 40px;
+    background-color: antiquewhite;
+}
+#slide p{
+    line-height: 5px;
+    font-size: 25px;
+    color: green;
+}
